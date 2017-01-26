@@ -18,3 +18,6 @@ https://github.com/spyua/Android-HM10-DIST-TEST＜/br＞
 PS:We reference the Danash code＜/br＞
 https://github.com/danasf/hm10-android-arduino＜/br＞
 
+
+https://cloud.githubusercontent.com/assets/20264622/22344166/12427f92-e436-11e6-8eb7-ce0c996cb7fe.png
+
