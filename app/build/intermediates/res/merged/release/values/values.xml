@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_0">#1781B1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="gray">#808080</color>
+    <color name="green">#00b159</color>
+    <color name="green_0">#65B06F</color>
+    <color name="indigo">#4b0082</color>
+    <color name="indigo_0">#2F61A0</color>
+    <color name="orange">#E59400</color>
+    <color name="orange_0">#DB8709</color>
+    <color name="purple">#2E0854</color>
+    <color name="purple_0">#989EC0</color>
+    <color name="red">#992E30</color>
+    <color name="red_0">#C41C1C</color>
+    <color name="t_indigo">#224b0082</color>
+    <color name="t_yellow">#228E8E00</color>
+    <color name="teansparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#8E8E00</color>
+    <color name="yellow_0">#D3D52C</color>
+    <string name="app_name">BLE-HM-TEST</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="button">Send</string>
+    <string name="compass_dial">Compass Dial</string>
+    <string name="compass_hands">Compass Hands</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="is_serial">SERIAL</string>
+    <string name="label_data">RSSI Data:</string>
+    <string name="label_device_address">Device Address:</string>
+    <string name="label_state">State:</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="no_data">No data</string>
+    <string name="title_devices">BLE Scan</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
+</resources>

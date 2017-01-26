@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/gray"
+                  >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/label_device_address"
+                  android:textStyle="bold"
+                  android:textSize="20sp"
+                  android:textColor="@color/white"/>
+        <Space android:layout_width="3dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/device_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+            android:text="none"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/gray">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/label_state"
+                  android:textStyle="bold"
+                  android:textSize="20sp"
+                  android:textColor="@color/white"/>
+        <Space android:layout_width="3dp"
+               android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/connection_state"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/disconnected"
+                  android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/gray">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/label_data"
+                  android:textStyle="bold"
+                  android:textSize="20sp"
+                  android:textColor="@color/white"/>
+        <Space android:layout_width="3dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/c_rssi_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="none"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="DIST(CM):  "
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:textColor="@color/white"/>
+
+        <Space android:layout_width="2dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/f1_dist_txt"
+            android:text="none"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="GET DATA:  "
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        <Space android:layout_width="2dp"
+            android:layout_height="wrap_content"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/get_data_txt"
+            android:text="none"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/black">
+
+        <TextView
+           android:id="@+id/isSerial"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+           android:text="@string/is_serial"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.17"
+        >
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/control_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSFER"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id ="@+id/send_layout0"
+
+        >
+        <Button
+            android:text="GET RSSI DIST \n AND SENT"
+            android:layout_height="50dp"
+            android:id="@+id/send_btn0"
+            android:layout_below="@+id/control_txt"
+            android:layout_toRightOf="@+id/input_edi0"
+            android:background="@color/red"
+            android:textColor="@drawable/btn_text_color"
+            android:layout_width="200dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id ="@+id/send_layout1"
+        android:layout_below="@+id/input_edi0"
+        android:paddingTop="5dp"
+        >
+
+        <EditText
+            android:layout_height="match_parent"
+            android:text="Def Command"
+            android:ems="10"
+            android:id="@+id/input_edi1"
+            android:layout_width="150dp"
+            />
+
+        <Button
+            android:text="SEND"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/send_btn1"
+            android:layout_below="@+id/control_txt"
+            android:layout_toRightOf="@+id/input_edi0"
+            android:background="@color/black"
+            android:textColor="@drawable/btn_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id ="@+id/send_layout2"
+        android:layout_below="@+id/input_edi1"
+        android:paddingTop="5dp"
+
+        >
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Def Command"
+            android:ems="10"
+            android:id="@+id/input_edi2"
+            />
+
+        <Button
+            android:text="SEND"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/send_btn2"
+            android:layout_below="@+id/control_txt"
+            android:layout_toRightOf="@+id/input_edi0"
+            android:background="@color/black"
+            android:textColor="@drawable/btn_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id ="@+id/send_layout3"
+        android:layout_below="@+id/input_edi2"
+        android:paddingTop="5dp"
+        >
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Def Command"
+            android:ems="10"
+            android:id="@+id/input_edi3"
+           />
+
+        <Button
+            android:text="SEND"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/send_btn3"
+            android:layout_below="@+id/control_txt"
+            android:layout_toRightOf="@+id/input_edi0"
+            android:background="@color/black"
+            android:textColor="@drawable/btn_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:id ="@+id/send_layout4"
+        android:layout_below="@+id/input_edi3"
+        android:paddingTop="5dp"
+        >
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Def Command"
+            android:ems="10"
+            android:id="@+id/input_edi4"
+            />
+
+        <Button
+            android:text="SEND"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/send_btn4"
+            android:layout_below="@+id/control_txt"
+            android:layout_toRightOf="@+id/input_edi0"
+            android:textColor="@drawable/btn_text_color"
+            android:background="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/input_edi4"
+        android:layout_marginTop="5dp"
+        >
+
+        <Switch
+            android:text="Auto Detect RSSI"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/auto_switch" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

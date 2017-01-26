@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/release/anim/rotate.xml",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/anim/rotate.xml"
+    },
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/release/anim/linear_interpolator.xml",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/anim/linear_interpolator.xml"
+    }
+]

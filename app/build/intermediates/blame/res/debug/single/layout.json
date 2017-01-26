@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/debug/layout/actionbar_indeterminate_progress.xml",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/layout/actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/debug/layout/startlayout.xml",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/layout/startlayout.xml"
+    },
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/layout/gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/layout/listitem_device.xml"
+    }
+]

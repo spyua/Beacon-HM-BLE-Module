@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/release/drawable-hdpi-v4/hands.png",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/drawable-hdpi/hands.png"
+    },
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/release/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/res/merged/release/drawable-hdpi-v4/dial.png",
+        "source": "/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/src/main/res/drawable-hdpi/dial.png"
+    }
+]

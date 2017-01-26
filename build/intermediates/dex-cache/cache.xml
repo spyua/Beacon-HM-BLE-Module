@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-24.2.1_6a0bb65ce5be552ed7211640e7cc2b6db88aec9b.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/internal_impl-24.2.1_ff2fc40849a995ca66f412cfcb7332da9f71748f.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-24.2.1_8e486e20876ef930f2e1aeb69ee761e1f861f5d2.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/internal_impl-24.2.1_d3625b6c3b52022bb85b9a0e4e0a4d4fd09550c0.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-24.2.1_e66fd6d5c1942d25522d6e7d6e07727df120246c.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/internal_impl-24.2.1_ec1f6a5f68d8fef3229463e7266a7dc1a9dbfcf0.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-24.2.1_f937cabf142479308e26411bb9cca27667474c58.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/internal_impl-24.2.1_818524a70feb7664479f6e583332ff2b028d4fa3.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.2.1_12b1da8a9a75c8e8011b2c71ec4e4eb16c27d0e4.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/internal_impl-24.2.1_7ac1313619c9c12bd28162c4b0d670224fae4646.jar" />
+    </item>
+    <item
+        jar="/Users/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/support-annotations-24.2.1_840ee228e6e09346039b9963a07dd86c2dcaef60.jar" />
+    </item>
+    <item
+        jar="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Desktop/workspace/Android-HM10-DIST-TEST/HM10_TEST/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-24.2.1_b0a9daa7e019cca2aefcec33ab2acaead03eb680.jar" />
+    </item>
+
+</items>
