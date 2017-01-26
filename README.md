@@ -13,11 +13,10 @@ And you also can use this app to sent some data to the HM-BLE module.＜/br＞
 Auto get RSSI and DIST every 3s＜/br＞
 
 About HM-BLE Module Setting＜/br＞
-https://github.com/spyua/Android-HM10-DIST-TEST＜/br＞
+https://github.com/spyua/Android-HM10-DIST-TEST
 
 PS:We reference the Danash code＜/br＞
-https://github.com/danasf/hm10-android-arduino＜/br＞
+https://github.com/danasf/hm10-android-arduino
 
 
-https://cloud.githubusercontent.com/assets/20264622/22344166/12427f92-e436-11e6-8eb7-ce0c996cb7fe.png
 
